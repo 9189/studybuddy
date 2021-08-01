@@ -1,0 +1,123 @@
+.chat-box {
+	background-color: #212121;
+	height: 500px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.sidepanel {
+	background-color: #32465a;
+	width: 100%;
+	height: 500px;
+}
+
+.mycol,
+.sidepanel {
+	padding: 0;
+}
+
+.content .contact-profile {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	background: #333333;
+	padding-left: 15px;
+}
+
+.contact-profile,
+p {
+	margin: 0px !important;
+	color: #f5f5f5;
+}
+
+.message-input {
+	background-color: #333333 !important;
+	position: absolute;
+	bottom: 0 !important;
+	width: 100%;
+	z-index: 99;
+}
+
+.content .message-input .wrap input {
+	font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+	background-color: #333333 !important;
+	float: left;
+	border: none;
+	width: calc(100% - 71px);
+	padding: 14px 32px 8px 8px;
+	font-size: 0.8em;
+	font-size: 16px;
+}
+
+.content .message-input .wrap button {
+	border-radius: 0px !important;
+	float: right;
+	border: none;
+	width: 70px;
+	padding-right: 20px;
+	cursor: pointer;
+	background: #32465a !important;
+	color: #f5f5f5;
+	height: 48px;
+}
+
+.content .message-input .wrap input:focus {
+	outline: none;
+}
+
+.content .message-input .wrap .send {
+	margin: 0px;
+}
+
+.content .messages {
+	height: calc(500px - 60px - 48px);
+	min-height: calc(100% - 93px);
+	max-height: calc(100% - 93px);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.message {
+	display: inline-block;
+	width: 100%;
+}
+
+.message .sent {
+	float: right;
+	background-color: #32465a;
+	padding: 5px 10px 5px 10px;
+	margin: 5px 10px 0px 10px;
+	border-radius: 10px 10px 2px 10px;
+	max-width: 300px;
+}
+
+.message .reply {
+	float: left;
+	background-color: #333333;
+	padding: 5px 10px 5px 10px;
+	margin: 5px 10px 0px 10px;
+	border-radius: 10px 10px 10px 2px;
+	max-width: 300px;
+}
+
+.message > div > p {
+	margin: 0px;
+	overflow-wrap: break-word;
+}
+
+.contact,
+.contact-active > p {
+	padding-left: 20px;
+}
+
+.contact-wrap {
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+
+.contact {
+	background-color: #3e6286;
+}

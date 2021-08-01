@@ -1,0 +1,56 @@
+.filter-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: #212121;
+	border-radius: 100px;
+	height: 64px;
+
+	.land {
+		margin-left: 30px;
+	}
+
+	p {
+		font-size: 0.65em;
+		margin: 0px;
+	}
+
+	select {
+		width: 180px;
+	}
+
+	.DateRangePickerInput,
+	.DateInput {
+		background-color: #212121 !important;
+	}
+
+	.date {
+		display: flex;
+		flex-direction: row;
+	}
+
+	button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-style: initial;
+		padding: 0px;
+		width: 55px;
+		height: 55px;
+		border-radius: 50% !important;
+		margin-right: 6px;
+	}
+
+	.vl {
+		border-left: 0.75px solid #484848;
+		height: 45%;
+	}
+
+	@media (max-width: 1000px) {
+		select {
+			width: 60px;
+		}
+	}
+}

@@ -1,0 +1,145 @@
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+body {
+	background-color: #121212;
+	color: #ffffff;
+	padding-bottom: 100px;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url(./fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Material Icons";
+	font-style: normal;
+	font-weight: 400;
+	src: url(../node_modules/material-design-icons/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+	src: local("Material Icons"), local("MaterialIcons-Regular"),
+		url(../node_modules/material-design-icons/iconfont/MaterialIcons-Regular.woff2)
+			format("woff2"),
+		url(../node_modules/material-design-icons/iconfont/MaterialIcons-Regular.woff)
+			format("woff"),
+		url(../node_modules/material-design-icons/iconfont/MaterialIcons-Regular.ttf)
+			format("truetype");
+}
+
+.icons {
+	font-family: Material Icons;
+	font-size: 2rem;
+	margin: 1vw;
+	color: #d2d2d2;
+}
+
+h1 {
+	font-family: Montserrat-Bold;
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-family: Montserrat-Bold;
+	font-size: 1.4rem;
+}
+
+h4 {
+	font-family: Montserrat;
+	font-size: 0.9rem;
+	opacity: 0.8;
+}
+
+h5 {
+	font-family: Montserrat;
+	font-size: 0.8rem;
+	opacity: 0.6;
+}
+
+p,
+span {
+	font-family: Montserrat;
+	font-size: 0.8rem;
+	opacity: 0.8;
+}
+
+.navbar {
+	background-color: #272727;
+}
+
+.navbar.center .navbar-inner {
+	text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+input,
+textarea,
+select {
+	background-color: #212121 !important;
+	border: none !important;
+	border-radius: 10px !important;
+	color: #d2d2d2 !important;
+}
+
+textarea {
+	resize: none;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 10px #212121;
+}
+
+button {
+	cursor: pointer;
+	background-color: #6190ff !important;
+	color: #d2d2d2 !important;
+	font-family: Montserrat-Bold;
+	font-style: italic;
+	border-radius: 10px !important;
+}
+
+/* Change Autocomplete styles in Chrome*/
+/*https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/ */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	border: 1px solid #212121 !important;
+	-webkit-text-fill-color: #d2d2d2 !important;
+	-webkit-box-shadow: 0 0 0px 1000px #212121 inset !important;
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+.DateInput,
+.SingleDatePickerInput,
+.DateRangePickerInput {
+	background-color: #121212;
+	border: none;
+}
+
+.spinner-full {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 70px;
+	transform: translate(-50%, -50%);
+}

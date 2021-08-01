@@ -1,0 +1,41 @@
+.image-wrapper {
+	height: 250px;
+	background-color: #212121;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.image-wrapper > img {
+	width: 100%;
+	height: auto;
+}
+
+.info-block {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.image-container {
+	position: relative;
+}
+
+.merken,
+.entmerken {
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+}
+
+.user-controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+
+	p {
+		cursor: pointer;
+		padding-right: 15px;
+		color: #6190ff;
+		font-style: italic;
+	}
+}

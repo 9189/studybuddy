@@ -1,0 +1,32 @@
+.image-cropper {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.image-cropper > img {
+	width: auto;
+	height: 100%;
+	margin-left: -50px;
+	margin-bottom: -50px;
+}
+
+.profil-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.chat-button {
+	margin-left: 20px;
+}
+
+.profil {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

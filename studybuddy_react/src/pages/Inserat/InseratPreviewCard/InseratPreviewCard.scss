@@ -1,0 +1,64 @@
+.inserat-card {
+	background-color: #212121;
+	display: flex;
+	align-items: center;
+	padding: 15px 25px 10px 35px;
+	border-radius: 15px;
+	width: 60vw;
+}
+
+.inserat-card:hover {
+	cursor: pointer;
+}
+
+.image-cropper {
+	display: inline-block;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	padding: 0px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.image-cropper > img {
+	width: auto;
+	height: 100%;
+	margin-left: -50px;
+	margin-bottom: -50px;
+}
+
+.profile-image-cropper {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.profile-image-cropper > img {
+	width: auto;
+	height: 100%;
+	margin-left: -20px;
+	margin-bottom: -50px;
+}
+
+.mine p {
+	color: #36bc8e;
+}
+
+.title {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.user-sucht {
+	position: relative;
+	top: -20px;
+}
+
+.account-avatar > img {
+	width: 80px;
+	height: 80px;
+}
